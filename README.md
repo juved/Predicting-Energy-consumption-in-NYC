@@ -10,7 +10,8 @@ Our primary business objectives are to offer useful insights that directly impac
 
 The alignment of business motivations with model objectives ensures that the predictions and insights from our models have practical implications, supporting broader goals such as promoting sustainability, informing policy decisions, and creating a resilient and energy-efficient urban environment.
 
-<img width="562" alt="Screenshot 2024-02-04 at 4 20 39 PM" src="https://github.com/juved/Predicting-Energy-consumption-in-NYC/assets/34844790/cbc35a70-7297-4f56-b11d-8c33848cd938">
+<img width="853" alt="image" src="https://github.com/juved/Predicting-Energy-consumption-in-NYC/assets/34844790/41888849-0b7e-4e41-9d94-bba879c4e067">
+
 
 ## This Project’s Technical Objectives:
 
