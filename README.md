@@ -88,4 +88,16 @@ Considering these achievements, the Random Forest Regressor is strongly recommen
 - Investigate Deviating Buildings: Investigate buildings that exhibit significant deviations from predicted energy consumption levels. Identifying common parameters among these buildings can shed light on underlying factors contributing to energy inefficiency or efficiency. This analysis could inform targeted strategies for energy reduction and optimization.
 
 
+## Datasets URL :
+https://data.cityofnewyork.us/Environment/NYC-Building-Energy-and-Water-Data-Disclosure-for-/5zyy-y8am/about_data / https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page
 
+## Repo Structure:
+├── Data
+├── Images
+├── Notebooks
+│   ├── 
+│   ├── 
+├── .gitignore
+├── Final.ipynb
+├── LICENSE
+├── README.md
