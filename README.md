@@ -4,11 +4,17 @@ Predicting Energy consumption in NYC
 A Data-Driven Approach to Sustainable Urban Living
 
 ## Business Understanding:
-This project revolves around the comprehensive analysis and prediction of energy consumption in New York City buildings, aligning closely with broader business motivations and objectives. The project aims to deliver valuable outcomes for a diverse range of stakeholders, including urban planners, environmentalists, the New York State Government, real estate investors, and policymakers.
+Buildings are the major contributor to world energy consumption and greenhouse gas emission The high proportion of energy consumed by buildings leads to major environmental problems, causing climate change, and air pollution among others[1].
+
+It's impacting our city's urban planning by the need to build energy infrastructure to support the building energy needs. This initiative revolves around the comprehensive analysis and prediction of energy consumption in New York City buildings, aligning closely with broader business motivations and objectives. The project aims to deliver valuable outcomes for a diverse range of stakeholders, including urban planners, environmentalists, the New York State Government, real estate investors, and policymakers.
 
 Our primary business objectives are to offer useful insights that directly impact energy-efficient building practices, influence the creation of policies supporting sustainable living, and lead to cost savings for individuals and businesses. By utilizing advanced machine learning models to predict energy efficiency trends, our project aims to guide decisions that optimize resource usage, reduce environmental impact, and support economic development. Ultimately, we want to contribute to the overall resilience of the community.
 
 The alignment of business motivations with model objectives ensures that the predictions and insights from our models have practical implications, supporting broader goals such as promoting sustainability, informing policy decisions, and creating a resilient and energy-efficient urban environment.
+
+[1] Ref: CO2 emissions from buildings and construction hit new high, leaving sector off track to decarbonize by 2050: UN 
+
+
 
 <img width="853" alt="image" src="https://github.com/juved/Predicting-Energy-consumption-in-NYC/assets/34844790/41888849-0b7e-4e41-9d94-bba879c4e067">
 
@@ -64,7 +70,8 @@ It archeive the lowest Mean Squared Error (MSE) of 0.0879, signifying superior p
 Therefore, the Random Forest Regressor emerges as the preferred choice for predicting energy consumption in this context. With the selected : 'lotarea,' 'bldgarea,' 'numfloors,' 'unitstotal,' 'assessland,' 'largest property use type - gross floor area (ft²),' 'year built,' 'construction status,' 'number of buildings,' 'occupancy,' 'property gfa - self-reported (ft²),' 'postal code,' 'landuse,' 'comarea,' 'resarea,' 'bldgdepth,' 'lottype,' 'bsmtcode,' 'builtfar,' 'residfar,' 'commfar,' 'facilfar' to make accurate predictions.
 
 fig. 3:
-<img width="641" alt="image" src="https://github.com/juved/Predicting-Energy-consumption-in-NYC/assets/34844790/1bb8b788-b1fd-458f-b02f-3ffd9455000c">
+<img width="638" alt="image" src="https://github.com/juved/Predicting-Energy-consumption-in-NYC/assets/34844790/ff55bb61-a1f5-444a-a29b-058041d664df">
+
 
 
 In fig.3, we display the actual versus predicted energy consumption. The red dots represent buildings with actual energy consumption at least 10% higher than predicted, suggesting a need for improvement in their energy infrastructure. The green dots represent buildings with actual energy consumption 10% lower than predicted, offering insights into potential energy efficiency enhancements. For the majority of buildings, the actual values fall within 10% of the logarithmically transformed predicted energy consumption values. Our model explains 61.5% of the variance in log energy consumption.
